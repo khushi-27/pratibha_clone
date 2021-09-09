@@ -51,7 +51,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                   CustomFormField(
                       text: 'Email',
                       controller: emailController,
-                      obscureText: true),
+                      obscureText: false),
                   const SizedBox(height: 15.0),
                   Container(
                       width: 300,
